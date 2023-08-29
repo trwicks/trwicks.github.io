@@ -5,9 +5,14 @@
 ```
 docker build -t hugo-runner . 
 
+# Run hugo website locally
 docker run --rm -it \
-  -v $(pwd)/src:/src \
+  -v $(pwd)/blog:/src \
   -p 1313:1313 \
   hugo-runner \
-  bash
+  hugo serve --bind 0.0.0.0
+
+docker run --rm -it \
+  -v $(pwd)/blog:/src \
+  hugo-runner hugo 
 ```

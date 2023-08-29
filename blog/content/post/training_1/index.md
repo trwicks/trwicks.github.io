@@ -5,7 +5,7 @@ slug: training-1
 date: 2023-08-23 00:00:00+0000
 image: bwdog.jpg
 categories:
-    - Exercise and Out
+    - Exercise and Outdoors
 tags:
     - Short
     - Training
