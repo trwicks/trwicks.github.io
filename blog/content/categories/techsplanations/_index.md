@@ -1,6 +1,6 @@
 ---
 title: Techsplanations
-description: A description of this category
+description: My attempt at explaining complicated areas topics or tech jargon. Can my Mum understand what I am saying?
 image:
 
 # Badge style
