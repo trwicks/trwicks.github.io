@@ -1,79 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on Hugo Theme Stack Starter</title>
-        <link>https://demo.stack.jimmycai.com/post/</link>
-        <description>Recent content in Posts on Hugo Theme Stack Starter</description>
+        <title>Posts on Tim Wicks</title>
+        <link>https://trwicks.github.io/post/</link>
+        <description>Recent content in Posts on Tim Wicks</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hello World</title>
-        <link>https://demo.stack.jimmycai.com/p/hello-world/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Training #1</title>
+        <link>https://trwicks.github.io/p/training-1/</link>
+        <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/hello-world/</guid>
-        <description>&lt;img src="https://demo.stack.jimmycai.com/p/hello-world/cover.jpg" alt="Featured image of post Hello World" /&gt;&lt;p&gt;Welcome to Hugo theme Stack. This is your first post. Edit or delete it, then start writing!&lt;/p&gt;
-&lt;p&gt;For more information about this theme, check the documentation: &lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://docs.stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Want a site like this? Check out &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;hugo-theme-stack-stater&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Photo by &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/@pawel_czerwinski&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pawel Czerwinski&lt;/a&gt; on &lt;a class=&#34;link&#34; href=&#34;https://unsplash.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+        <guid>https://trwicks.github.io/p/training-1/</guid>
+        <description>&lt;img src="https://trwicks.github.io/p/training-1/bwdog.jpg" alt="Featured image of post Training #1" /&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Do nothing which is of no use.&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Miyamoto Musashi, The Book of Five Rings (The Book of Earth)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;Not too long ago I suffered a few injuries - torn calf, pain in my lower back and left knee - and weakness in balance and flexibility that prevented me from training martial arts and weighlifting as usual. This period caused me to evaluate how and why I train, which led to three noticable areas that I want to change with my training into the future.&lt;/p&gt;
+&lt;p&gt;The first major change is not training too much in each session. I loosely think that I would like to improve my 75% rather than my 100%. It allows me to enjoy training on a more regular basis than pushing yourself too hard where you dislike the thought of going back to the gym the next day. Up until recently I trained with the mindset of always trying to push myself as hard as I can each workout. While this is does yield results it comes with risk of injury or burnout that may not align with what you want to achieve. By holding back a bit I feel eager to do more at the end of the session and the same feeling persists the next day.&lt;/p&gt;
+&lt;p&gt;The second change is to focus on identifying and fixing weak areas. For me this is my glutes, hip flexors, and neglected core muscle groups. I spend a lot more time trying to identify areas that need improvement and then target those areas with different exercises, seeing what helps pain and mobility. I recently worked with a great physio has helped me identify issues in my hips and knee stability, so it is great to have additional members on your fitness team to help you out. By actively monitoring weak areas and trying fixing them I find that I am putting additional tools for the workout toolbox rather than the same old workout.&lt;/p&gt;
+&lt;p&gt;Finally, it is worth actually asking why you are training in the first place. Many people start out by formulating workout regimes to get healthy or to look better. These are great high level goals but it worth continously listening to yourself and putting thought into refining your goals, so you have long to short term goals that allow you to grow in a desired direction. The ability to learn and grow as a person through exercise and martial arts is really important to me and at some stage I would like to teach otherwise what I know.&lt;/p&gt;
+&lt;p&gt;Focus on fixing weakness would be my mantra these days. My big desire is to be training long into the future, not winning crossfit competitions, so it worth putting some thought into areas that need a bit of thought and adjustment.&lt;/p&gt;
 </description>
         </item>
         <item>
-        <title>Testing Deployment</title>
-        <link>https://demo.stack.jimmycai.com/p/test/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+        <title>What is the &#34;Cloud&#34;?</title>
+        <link>https://trwicks.github.io/p/techsplanations-cloud/</link>
+        <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://demo.stack.jimmycai.com/p/test/</guid>
-        <description>&lt;img src="https://demo.stack.jimmycai.com/p/test/m2.png" alt="Featured image of post Testing Deployment" /&gt;&lt;p&gt;Testing the things.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Hugo&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;push]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;jobs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;build&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;runs-on&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ubuntu-latest&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;steps&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;actions/checkout@v1&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;Deploy &lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;uses&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;JamesIves/github-pages-deploy-action@v4&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;with&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;branch&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;folder&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;src/public&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;clean&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;single-commit&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+        <guid>https://trwicks.github.io/p/techsplanations-cloud/</guid>
+        <description>&lt;img src="https://trwicks.github.io/p/techsplanations-cloud/ttmountain.jpg" alt="Featured image of post What is the &#34;Cloud&#34;?" /&gt;&lt;p&gt;Describing what I do for work in a casual conversation varies quite widely depending on the audience as I try to give a mental picture of what I do. If I am honest, I say I work in &amp;ldquo;IT&amp;rdquo; and move on to more interesting conversation, but I find what I do really interesting and it is about time I put some thought into explaining the jargon in tech so I and other people can understand the vernacular a bit more. Therefore, in this series of posts I am going to explain the terminology commonly used in tech to my Mum, who is someone that gets pretty confused by these words. The first word I feel that gets thrown around a great deal and is a worthy of an honest explanation is &amp;ldquo;cloud&amp;rdquo;, and this word is a great example of words in the tech industry that appear to have technical meaning but actually are actually well disguised marketing vocobularly.&lt;/p&gt;
+&lt;p&gt;Cynics that work in the industry describe the cloud has &amp;ldquo;someone else&amp;rsquo;s computer&amp;rdquo;, which of course has some truth to it but trivialises the term and is not particularly helpful to the uninitiated. In a more optimistic sense, the cloud can be thought of as third-party hosted platform that provides computing, storage and networking components that can be arranged to build IT infrastructure that runs services for your company. And herein lies the problem, in both those sentences an &lt;em&gt;excessive&lt;/em&gt; amount of technology concepts (computers, networking, data centres, virtualisation, cloud providers etc) are glossed over, which need to be explained in sufficient detail for the non-technical audience to grasp why the cloud can be thought of as &amp;ldquo;someone else&amp;rsquo;s computer&amp;rdquo;. But if you look at the word &amp;ldquo;cloud&amp;rdquo; from a perspective of someone wanting to understand it as business concept and not technical concept, the term becomes much easier comprehend:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;the cloud is a marketing term that describes a business model, where by IT infrastructure is provided as different service offerings to paying customers so they can host services for their customers, which allows the business using these services to benefit from the scale of the cloud provider and not having to manage the underlying physical IT infrastructure.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I must apologies to my Mum here for misrepresenting what I do as a &amp;ldquo;cloud engineer&amp;rdquo; as it appears on my LinkedIn and I am sure I have used it once or twice in conversation. The cloud is a marketing term that was really designed to be aimed at board rooms of executives rather than technical professionals. This also means that word really shouldn&amp;rsquo;t be aimed at customers of technology products either as it only serves as a facade to describe IT infrastructure managed by Apple, for example. In my opinion, I don&amp;rsquo;t think it is worth salvaging the word &amp;ldquo;cloud&amp;rdquo; for any meaningful interpretation in a technical context, and instead I think it is better to focus the other components of the cloud that are obfuscated away by the term. Networking, servers, storage and software are more worthy candidates explanation as they stand up by themselves in describing the thing they represent, which I will attempt to describe in later posts in this series. Discussing these topics in an approachable way with non-technical people will help aid understanding of what technology people look after, in the same way we have an appreciation of what doctors, carpenters and accountants do.&lt;/p&gt;
+&lt;p&gt;And as a last aside, as I have worked in the tech industry, I think it is good to have a healthy appreciation for discerning what words are merely marketing buzzwords and which ones deserve your attention as being a part of the way you describe subjects in the field of technology. This is because the quality of your communication matters, as the cost of using marketing fluff words is less accurately describing the things you are truly passionate about.&lt;/p&gt;
+&lt;p&gt;Thank you for reading.&lt;/p&gt;
+</description>
         </item>
         
     </channel>
