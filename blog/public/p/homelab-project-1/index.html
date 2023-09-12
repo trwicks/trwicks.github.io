@@ -583,9 +583,13 @@ Having a Github account and test repository is also required for running the Git
 </span><span class="lnt"> 9
 </span><span class="lnt">10
 </span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir actions-runner <span class="o">&amp;&amp;</span> <span class="nb">cd</span> actions-runner
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Requires connecting to the runner using ssh with the following command (for my environment) ssh -i homelab admin@192.168.1.15</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mkdir actions-runner <span class="o">&amp;&amp;</span> <span class="nb">cd</span> actions-runner
 </span></span><span class="line"><span class="cl">curl -o actions-runner-linux-x64-2.308.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.308.0/actions-runner-linux-x64-2.308.0.tar.gz
 </span></span><span class="line"><span class="cl">tar xzf ./actions-runner-linux-x64-2.308.0.tar.gz
 </span></span><span class="line"><span class="cl">

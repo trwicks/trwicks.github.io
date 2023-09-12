@@ -158,6 +158,8 @@ For this example I will use the installation instructions provided by Github. Th
 On the following page grab the download and configuration commands and run those commands on the Proxmox VM runner.
 
 ```bash
+# Requires connecting to the runner using ssh with the following command (for my environment) ssh -i homelab admin@192.168.1.15
+
 mkdir actions-runner && cd actions-runner
 curl -o actions-runner-linux-x64-2.308.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.308.0/actions-runner-linux-x64-2.308.0.tar.gz
 tar xzf ./actions-runner-linux-x64-2.308.0.tar.gz
