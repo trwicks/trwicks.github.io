@@ -1,5 +1,5 @@
 
-if [[ $1 -eq "dev" ]]; then 
+if [ $1 = "dev" ]; then 
     echo "Building hugo runner container..."
     docker build -t hugo-runner .
 
@@ -11,7 +11,7 @@ if [[ $1 -eq "dev" ]]; then
         hugo serve --bind 0.0.0.0
 fi
 
-if [[ $1 -eq "build" ]]; then 
+if [ $1 = "build" ]; then 
     docker run --rm -it \
         -v $(pwd)/blog:/src \
         hugo-runner hugo
