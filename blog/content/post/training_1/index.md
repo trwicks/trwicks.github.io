@@ -1,5 +1,5 @@
 ---
-title: "Training #1"
+title: "Training Thoughts #1"
 description: "Improving the way I think about training."
 slug: training-1
 date: 2023-08-23 00:00:00+0000
