@@ -1,5 +1,5 @@
 ---
-title: "Homelab - Self-hosted Github Runner"
+title: "Self-hosting a Github Runner"
 description: "Creating a Gitlab Runner on a Virtual Machine in Proxmox."
 slug: homelab-project-1
 date: 2023-09-11 00:00:00+0000

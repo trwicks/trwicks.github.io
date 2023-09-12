@@ -3,16 +3,10 @@
 # How to use
 
 ```
-docker build -t hugo-runner . 
+# Development
+./scripts/util.sh dev
 
-# Run hugo website locally
-docker run --rm -it \
-  -v $(pwd)/blog:/src \
-  -p 1313:1313 \
-  hugo-runner \
-  hugo serve --bind 0.0.0.0
+# Create files for publishing 
+./scripts/util.sh build
 
-docker run --rm -it \
-  -v $(pwd)/blog:/src \
-  hugo-runner hugo 
 ```

@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Homelab - Self-hosted Github Runner</title>
+        <title>Self-hosting a Github Runner</title>
         <link>https://trwicks.github.io/p/homelab-project-1/</link>
         <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
         
         <guid>https://trwicks.github.io/p/homelab-project-1/</guid>
-        <description>&lt;img src="https://trwicks.github.io/p/homelab-project-1/images/server.png" alt="Featured image of post Homelab - Self-hosted Github Runner" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+        <description>&lt;img src="https://trwicks.github.io/p/homelab-project-1/images/server.png" alt="Featured image of post Self-hosting a Github Runner" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;This is a guide to document the creation of a Self-hosted Github runner in a homelab environment. The reason to set up a runner in your homelab is that the runner will enable Github workflows to run scripts and other automation software from the runner. This method demonstrates how to use Proxmox to create a VM and install and configure a Gitlab runner and is for testing purposes only. It is a basic project but I believe it makes you more familiar with Proxmox, setting up VMs and installing and configuring software using the command line.&lt;/p&gt;
 &lt;p&gt;Being comfortable with the command line using either a Linux shell and powershell is a great skill for performing a variety of tasks in different computing environments. A command line is also great as commands can be easily recorded to show how you achieved a task, and these commands can be thrown into a wiki for quick reference material in similar scenarios. Often I fondly remember well explained commands left by admins and developers in a wiki that have worked perfectly a few years after they were initially written.&lt;/p&gt;
 &lt;p&gt;The rough steps for this demonstration is as follows:&lt;/p&gt;
