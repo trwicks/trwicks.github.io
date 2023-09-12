@@ -209,11 +209,9 @@ Having a Github account and test repository is also required for running the Git
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;VM_ID&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9100&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;VM_ID&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;9100&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo qm clone &lt;span class=&#34;m&#34;&gt;9000&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$VM_ID&lt;/span&gt; &lt;span class=&#34;se&#34;&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;se&#34;&gt;&lt;/span&gt;   --name runner &lt;span class=&#34;se&#34;&gt;\
@@ -276,7 +274,7 @@ Having a Github account and test repository is also required for running the Git
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;github---create-a-workflow&#34;&gt;Github - Create a Workflow&lt;/h2&gt;
-&lt;p&gt;Lastly, I want to create a Github Action to use the runner to run some simple commands.&lt;/p&gt;
+&lt;p&gt;Lastly, I want to create a Github Action to use on the newly configured runner. This will allow me to run some simple commands in a workflow.&lt;/p&gt;
 &lt;p&gt;Create the workflow template in your .github/workflows directory. The workflow template below runs every 5 minutes on the self-hosted runner labelled &amp;ldquo;homelab&amp;rdquo;. Every time the workflow is executed the self-hosted runner will run the commands &lt;code&gt;ip addr; whoami&lt;/code&gt; and this will be displayed in the output section of the workflow on Github.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;

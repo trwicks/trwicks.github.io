@@ -133,7 +133,6 @@ The created VM template should be listed on the Proxmox web interface.
 After the VM Template is available on the Proxmox host a single VM is created with a static IP address and the SSH key of the homelab user for accessing the VM once it is created. The `qm set` commands configure the VM to use a specific IP address (please change this to suit your network requirements), network gateway, CPU and RAM, and public ssh key. Finally the root volume of the VM is resized to 50GB and the VM is started.
 
 ```bash
-
 VM_ID=9100
 
 sudo qm clone 9000 $VM_ID \
@@ -178,7 +177,7 @@ If this has worked correctly the runner should be in an idle state.
 
 ## Github - Create a Workflow
 
-Lastly, I want to create a Github Action to use the runner to run some simple commands.
+Lastly, I want to create a Github Action to use on the newly configured runner. This will allow me to run some simple commands in a workflow.
 
 Create the workflow template in your .github/workflows directory. The workflow template below runs every 5 minutes on the self-hosted runner labelled "homelab". Every time the workflow is executed the self-hosted runner will run the commands `ip addr; whoami` and this will be displayed in the output section of the workflow on Github.
 

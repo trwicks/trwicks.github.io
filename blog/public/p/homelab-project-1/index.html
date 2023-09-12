@@ -549,11 +549,9 @@ Having a Github account and test repository is also required for running the Git
 </span><span class="lnt">11
 </span><span class="lnt">12
 </span><span class="lnt">13
-</span><span class="lnt">14
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nv">VM_ID</span><span class="o">=</span><span class="m">9100</span>
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">VM_ID</span><span class="o">=</span><span class="m">9100</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">sudo qm clone <span class="m">9000</span> <span class="nv">$VM_ID</span> <span class="se">\
 </span></span></span><span class="line"><span class="cl"><span class="se"></span>   --name runner <span class="se">\
@@ -616,7 +614,7 @@ Having a Github account and test repository is also required for running the Git
 	
 ></p>
 <h2 id="github---create-a-workflow">Github - Create a Workflow</h2>
-<p>Lastly, I want to create a Github Action to use the runner to run some simple commands.</p>
+<p>Lastly, I want to create a Github Action to use on the newly configured runner. This will allow me to run some simple commands in a workflow.</p>
 <p>Create the workflow template in your .github/workflows directory. The workflow template below runs every 5 minutes on the self-hosted runner labelled &ldquo;homelab&rdquo;. Every time the workflow is executed the self-hosted runner will run the commands <code>ip addr; whoami</code> and this will be displayed in the output section of the workflow on Github.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
