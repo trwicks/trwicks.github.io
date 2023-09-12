@@ -11,7 +11,7 @@ tags:
 draft: false
 ---
 
-# Introduction
+## Introduction
 
 This is a guide to document the creation of a Self-hosted Github runner in a homelab environment. The reason to set up a runner in your homelab is that the runner will enable Github workflows to run scripts and other automation software from the runner. This method demonstrates how to use Proxmox to create a VM and install and configure a Gitlab runner and is for testing purposes only. It is a basic project but I believe it makes you more familiar with Proxmox, setting up VMs and installing and configuring software using the command line.
 
@@ -26,7 +26,7 @@ The rough steps for this demonstration is as follows:
 - Install and configure a Github Runner
 - Run a test workflow
 
-# Dependencies
+## Dependencies
 
 What components do we need to complete this project?
 
@@ -38,7 +38,7 @@ Having a Github account and test repository is also required for running the Git
 
 **Unix Shell** - The only software I need on my local machine to complete this task is an SSH client to access Proxmox. I am going to use the SSH client that comes with Ubuntu on Windows Subsystem for Linux, for this task. Git, or a Git client, is also required for pushing code changes to your Github repository. 
 
-# Create a VM in Proxmox
+## Proxmox - Preliminary Configuration
 
 For this part I will SSH into the Proxmox host in order to create a VM template that can be used to create Virtual Machines on the Proxmox hypervisor. I find creating the template using the command line is quicker and repeatable than trying to use the Proxmox web interface.
 
@@ -84,7 +84,7 @@ ssh-copy-id -i $KEY_NAME homelab@$PROXMOX_HOST
 scp -i $KEY_NAME $KEY_NAME.pub homelab@$PROXMOX_HOST:~/
 ```
 
-# Proxmox - VM Template Creation
+## Proxmox - VM Template Creation
 
 A VM template is required to make VM clones that are used as the foundation for new Virtual Machines that will run in the homelab Proxmox environment. The following script block installs some dependencies on the Proxmox host and then downloads and sets up a VM template.
 
@@ -128,7 +128,7 @@ The created VM template should be listed on the Proxmox web interface.
 
 ![Proxmox Template](images/template-proxmox.png)
 
-# Proxmox - Virtual Machine Creation
+## Proxmox - Virtual Machine Creation
 
 After the VM Template is available on the Proxmox host a single VM is created with a static IP address and the SSH key of the homelab user for accessing the VM once it is created. The `qm set` commands configure the VM to use a specific IP address (please change this to suit your network requirements), network gateway, CPU and RAM, and public ssh key. Finally the root volume of the VM is resized to 50GB and the VM is started.
 
@@ -150,7 +150,7 @@ sudo qm start $VM_ID
 ```
 
 
-# VM - Github Runner Configuration
+## Runner Virtual Machine - Self-hosted Runner Configuration
 
 For this example I will use the installation instructions provided by Github. These instructions are found by navigating to the Settings > Actions > Runner page in your repository and selecting "New self-hosted runner".
 
@@ -176,7 +176,7 @@ If this has worked correctly the runner should be in an idle state.
 
 !["Runner Idle"](images/github-runner-idle.png)
 
-### Run a Github Action using the Runner
+## Github - Create a Workflow
 
 Lastly, I want to create a Github Action to use the runner to run some simple commands.
 
@@ -208,7 +208,7 @@ From the Github Action console the Workflow should have been successfully run an
 
 !["Github Job"](images/runner-job.png)
 
-# Proxmox - Remove Resources
+## Proxmox - Remove Resources
 
 To remove the VM and VM template run the following commands from the homelab or root user on Proxmox.
 
@@ -237,7 +237,7 @@ git commit -m "Removing test workflow."
 git push origin <your branch>
 ```
 
-# References
+## References
 
 - [1] - [Getting Started with Proxmox (Youtube)](https://www.youtube.com/watch?v=sZcOlW-DwrU)
 - [2] - [QEMU/KVM CLI docs](https://pve.proxmox.com/pve-docs/qm.1.html)
