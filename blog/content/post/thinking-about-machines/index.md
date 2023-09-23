@@ -2,7 +2,7 @@
 title: Thinking About Machines
 description: "A thought experiment on the value of our thinking at the intersection between people and the machines we make."
 slug: thinking-about-machines
-date: 2023-09-24 00:00:00+0000
+date: 2023-09-23 00:00:00+0000
 image: girraween_18_03_2023.jpeg
 categories:
     - Short Thoughts
