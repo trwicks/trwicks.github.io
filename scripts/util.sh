@@ -11,8 +11,11 @@ if [ $1 = "dev" ]; then
         hugo serve --bind 0.0.0.0
 fi
 
-if [ $1 = "build" ]; then 
+if [ $1 = "publish" ]; then 
     docker run --rm -it \
         -v $(pwd)/blog:/src \
         hugo-runner hugo
+    git add .
+    git commit -m "Blog updates $(date)"
+    git push origin main
 fi
