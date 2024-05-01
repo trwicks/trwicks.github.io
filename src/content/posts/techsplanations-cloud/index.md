@@ -4,15 +4,14 @@ description: You are most likely not the intended audience.
 slug: techsplanations-cloud
 date: 2023-08-18 00:00:00+0000
 image: images/ttmountain.jpg
-layout: "simple"
 categories:
     - Techsplanations
 tags:
     - Short
 draft: false
-publishDate: 2023-08-29 00:00:00+0000
 series: ["Explain IT to Mum"]
 series_order: 1
+publishDate: 2023-08-29 00:00:00+0000
 ---
 
 Describing what I do for work in a casual conversation varies quite a lot these days. My response will depend on the background understanding of the audience. If I am honest, I say I work in "IT" and move on to more interesting conversation. But, I find what I do really interesting and it is about time I put some thought into explaining the jargon in tech so I can use the vernacular with more people. In this series of posts I will explain the terminology commonly used in wide world of technology to a person like my Mum. This kind of person is someone that gets pretty confused by these words and is at odds with computers at time.

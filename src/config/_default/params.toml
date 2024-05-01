@@ -1,3 +1,57 @@
+defaultFeaturedImage = "/img/background.svg"
+
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
+mainSections = ["posts"]
+
+[header]
+  layout = "fixed"
+
 [article]
-    showHero = true
-    heroStyle = "background"
+  showDate = false
+  showDateOnlyInArticle = true
+  showDateUpdated = false
+  showAuthor = true
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  seriesOpened = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 6
+  showTaxonomies = true 
+  showAuthorsBadges = true
+  showWordCount = false
+  showSummary = true
+
+[list]
+  showHero = true
+  heroStyle = "background"
+  cardView = true
+  groupByYear = false
+  cardViewScreenWidth = false
+
+[homepage]
+  layout = "background" # valid options: page, profile, custom
+  homepageImage = "/img/photos/ttmountain.jpg"
+  showRecent = true
+  showRecentItems = 3
+  showMoreLink = true
+  showMoreLinkDest = '/posts'
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true

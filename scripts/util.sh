@@ -8,7 +8,7 @@ if [ $1 = "dev" ]; then
         -v $(pwd)/src:/src \
         -p 1313:1313 \
         hugo-runner \
-        bash
+        hugo serve --bind 0.0.0.0
 fi
 
 if [ $1 = "publish" ]; then 
