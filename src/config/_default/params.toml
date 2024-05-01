@@ -3,6 +3,8 @@ defaultFeaturedImage = "/img/background.svg"
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
+#logo = "img/bear.jpg"
+    
 
 mainSections = ["posts"]
 
@@ -19,7 +21,7 @@ mainSections = ["posts"]
   layoutBackgroundBlur = true
   showBreadcrumbs = true
   showDraftLabel = true
-  seriesOpened = true
+  seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false

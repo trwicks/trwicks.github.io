@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Tim Wicks</copyright>
-    <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Techsplanations</title>
+      <link>https://trwicks.github.io/categories/techsplanations/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://trwicks.github.io/categories/techsplanations/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Short Thoughts</title>
       <link>https://trwicks.github.io/categories/short-thoughts/</link>
@@ -19,7 +29,7 @@
     </item>
     
     <item>
-      <title>homelab</title>
+      <title>Homelab</title>
       <link>https://trwicks.github.io/categories/homelab/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
@@ -34,16 +44,6 @@
       <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://trwicks.github.io/categories/exercise-and-outdoors/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Techsplanations</title>
-      <link>https://trwicks.github.io/categories/techsplanations/</link>
-      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://trwicks.github.io/categories/techsplanations/</guid>
       <description></description>
       
     </item>

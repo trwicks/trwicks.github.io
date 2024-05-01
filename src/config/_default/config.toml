@@ -6,3 +6,6 @@ languageCode = "en"
   category = "categories"
   author = "authors"
   series = "series"
+
+[imaging]
+  anchor = 'Center'
