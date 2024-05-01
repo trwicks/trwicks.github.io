@@ -1,0 +1,30 @@
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Topics"
+  pageRef = "topics"
+  weight = 20
+
+[[main]]
+  pre = "github"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 30
+
+[[main]]
+  identifier = "linkedin"
+  pre = "linkedin"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 40
+
+[[main]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 40
+
+[[footer]]
+  name = "Privacy"
+  url = "https://external-link"

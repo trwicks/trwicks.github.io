@@ -1,0 +1,13 @@
+
+title = "Tim Wicks - Blog"
+
+[author]
+name = "Tim Wicks"
+image = "img/m2.png"
+headline = "Always learning"
+bio = "A little bit about me"
+links = [
+  { linkedin = "https://twitter.com/username" },
+  { instagram = "https://twitter.com/username" },
+  { github = "https://twitter.com/username" }
+]
