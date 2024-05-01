@@ -13,7 +13,7 @@ fi
 
 if [ $1 = "publish" ]; then 
     docker run --rm -it \
-        -v $(pwd)/blog:/src \
+        -v $(pwd)/src:/src \
         hugo-runner hugo
     git add .
     git commit -m "Blog updates $(date)"

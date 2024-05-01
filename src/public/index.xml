@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim Wicks - Blog</title>
+    <link>https://trwicks.github.io/</link>
+    <description>Recent content on Tim Wicks - Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Tim Wicks</copyright>
+    <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinking About Machines</title>
+      <link>https://trwicks.github.io/posts/thinking-about-machines/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trwicks.github.io/posts/thinking-about-machines/</guid>
+      <description>“Thou shalt not make a machine in the likeness of a human mind.”
+Frank Herbert, Dune Conceptual abstraction allows our minds to ride over the perils of complexity. It is nice to have shortcuts and assistive or generative AI (AI) is emerging toolset that aims to complement our thinking. This technology is being used by programmers, designers and content makers to generate code, graphics and written content. These tools can save an alluring amount of time in the short term but may lead to costly mistakes if not used carefully.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/thinking-about-machines/feature.jpeg" />
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://trwicks.github.io/about/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trwicks.github.io/about/</guid>
+      <description>Summary # Hello</description>
+      
+    </item>
+    
+    <item>
+      <title>Self-hosting a Github Runner</title>
+      <link>https://trwicks.github.io/posts/homelab-project-1/</link>
+      <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trwicks.github.io/posts/homelab-project-1/</guid>
+      <description>Introduction # This is a guide to document the creation of a Self-hosted Github runner in a homelab environment. The reason to set up a runner in your homelab is that the runner will enable Github workflows to run scripts and other automation software from the runner. This method demonstrates how to use Proxmox to create a VM and install and configure a Gitlab runner and is for testing purposes only.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/homelab-project-1/feature.png" />
+    </item>
+    
+    <item>
+      <title>Training Thoughts #1</title>
+      <link>https://trwicks.github.io/posts/training-1/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trwicks.github.io/posts/training-1/</guid>
+      <description>Do nothing which is of no use.
+Miyamoto Musashi, The Book of Five Rings (The Book of Earth) Not too long ago I suffered a few injuries, including a torn calf, pain in my lower back and left knee - and weakness in balance and flexibility that prevented me from training martial arts and weightlifting as usual. This period caused me to evaluate how and why I train, which led to three notable areas that I want to change with my training into the future.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/training-1/feature.jpg" />
+    </item>
+    
+    <item>
+      <title>What is the &#34;Cloud&#34;?</title>
+      <link>https://trwicks.github.io/posts/techsplanations-cloud/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://trwicks.github.io/posts/techsplanations-cloud/</guid>
+      <description>Describing what I do for work in a casual conversation varies quite a lot these days. My response will depend on the background understanding of the audience. If I am honest, I say I work in &amp;ldquo;IT&amp;rdquo; and move on to more interesting conversation. But, I find what I do really interesting and it is about time I put some thought into explaining the jargon in tech so I can use the vernacular with more people.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/techsplanations-cloud/feature.jpg" />
+    </item>
+    
+  </channel>
+</rss>
