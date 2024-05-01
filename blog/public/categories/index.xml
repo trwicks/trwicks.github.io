@@ -6,7 +6,23 @@
         <description>Recent content in Categories on Tim Wicks</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 23 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Short Thoughts</title>
+        <link>https://trwicks.github.io/categories/short-thoughts/</link>
+        <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://trwicks.github.io/categories/short-thoughts/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Homelab</title>
+        <link>https://trwicks.github.io/categories/homelab/</link>
+        <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://trwicks.github.io/categories/homelab/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Exercise and Outdoors</title>
         <link>https://trwicks.github.io/categories/exercise-and-outdoors/</link>
         <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
@@ -28,14 +44,6 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://trwicks.github.io/categories/coda-casa/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Short Thoughts</title>
-        <link>https://trwicks.github.io/categories/short-thoughts/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://trwicks.github.io/categories/short-thoughts/</guid>
         <description></description>
         </item>
         

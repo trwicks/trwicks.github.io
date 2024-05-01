@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='A thought experiment on the value of our thinking at the intersection between people and the machines we make.'>
+<title>Thinking About Machines</title>
+
+<link rel='canonical' href='https://trwicks.github.io/p/thinking-about-machines/'>
+
+<link rel="stylesheet" href="/scss/style.min.f2f21d9d961219a01621263328d8997e1ae3b4f0371d455628df1fdc27d57bd6.css"><meta property='og:title' content='Thinking About Machines'>
+<meta property='og:description' content='A thought experiment on the value of our thinking at the intersection between people and the machines we make.'>
+<meta property='og:url' content='https://trwicks.github.io/p/thinking-about-machines/'>
+<meta property='og:site_name' content='Tim Wicks'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Essay' /><meta property='article:published_time' content='2023-09-23T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-09-23T00:00:00&#43;00:00'/><meta property='og:image' content='https://trwicks.github.io/p/thinking-about-machines/girraween_18_03_2023.jpeg' />
+<meta name="twitter:title" content="Thinking About Machines">
+<meta name="twitter:description" content="A thought experiment on the value of our thinking at the intersection between people and the machines we make."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://trwicks.github.io/p/thinking-about-machines/girraween_18_03_2023.jpeg' />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/m2_hudc4f6cdcab73f00ec49fe52dd6d696b8_1176096_300x0_resize_box_3.png" width="300"
+                            height="279" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">&lt;..&gt;</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Tim Wicks</a></h1>
+            <h2 class="site-description">This is my website.</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/trwicks'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/trwicks'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/bio/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Bio</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/thinking-about-machines/">
+                <img src="/p/thinking-about-machines/girraween_18_03_2023_hub3cf4ae0eb86f3ca98c8a0c32c6f58fe_5404349_800x0_resize_q75_box.jpeg"
+                        srcset="/p/thinking-about-machines/girraween_18_03_2023_hub3cf4ae0eb86f3ca98c8a0c32c6f58fe_5404349_800x0_resize_q75_box.jpeg 800w, /p/thinking-about-machines/girraween_18_03_2023_hub3cf4ae0eb86f3ca98c8a0c32c6f58fe_5404349_1600x0_resize_q75_box.jpeg 1600w"
+                        width="800" 
+                        height="600" 
+                        loading="lazy"
+                        alt="Featured image of post Thinking About Machines" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/short-thoughts/" style="background-color: #2a9d8f; color: #fff;">
+                Short Thoughts
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/thinking-about-machines/">Thinking About Machines</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            A thought experiment on the value of our thinking at the intersection between people and the machines we make.
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 23, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    5 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>“Thou shalt not make a machine in the likeness of a human mind.”</p>
+<ul>
+<li>Frank Herbert, Dune</li>
+</ul>
+</blockquote>
+<p>Conceptual abstraction allows our minds to ride over the perils of complexity. It is nice to have shortcuts and assistive or generative AI (AI) is emerging toolset that aims to complement our thinking. This technology is being used by programmers, designers and content makers to generate code, graphics and written content. These tools can save an alluring amount of time in the short term but may lead to costly mistakes if not used carefully. The implications surrounding the application of AI to our lives is superfluous. In my view, it attempts to be an antidote to bigger problems: we face complex problems, uncertainty and limited resources. How we solve this in a more general sense is more interesting as it brings into question our values and current mode of problem solving.</p>
+<p>Is it better to have a machine that will give you all the answers or have the capability to able to work out the answers yourself? On one hand the machine saves time by providing the thing we want almost instantly and on the other we have spent time understanding the problem and can develop our own intuition or solutions. In a less abstract way this can be thought of as having Google maps plan the most efficient route to your destination, or having the skill to read a map and plot your own journey. To choose between one or the other depends on your context and how you choose to solve your problems. A similar issue is apparent when I think about motorbikes, which made me explore the man versus AI issue from a different perspective.</p>
+<p>A trend these days can be observed with motorbikes and cars where they are increasing filled with electronic systems as motorbike manufactures have attempted to make them easy to use with a high level of safety. Most bikes have Anti Braking Systems (ABS), traction control, and other rider aids that allow the bike to intervene in the event of an emergency.  But in order to be a good rider - by good I mean less likely to die - you need to have a good understanding of how your bike  performs under different conditions, basic bike maintenance and an understanding of emergency manoeuvres. Your own life while riding is your responsibility and should justify the time it takes to practice emergency braking, checking and fixing mechanical issues on your bike and just having a good feel for how your bike will perform under a variety of situations. Adding more electronic rider aids detracts from your understanding of what the bike is doing and adds additional risk of the bike requiring expensive maintenance if these electronic systems fail. The rider can become overly reliant on these systems and develop bad habits. For the majority of riders being able to understand your bike and have the capability to fix issues is highly valued.</p>
+<p>MotoGP bikes are at the edge of technological boundary involving motorbikes. These type of bikes are immensely sophisticated and have more electronic systems to enable the rider to race at the highest possible level. To counter this complexity there is a whole team of mechanics and engineers as well as a highly trained rider that collectively dwell on the interplay of the MotoGP&rsquo;s bike systems to finely tune every parameter in search of safety and performance.</p>
+<p>As IT professionals we bear a great deal of responsibility for the IT systems we look after and develop. Our job means that we are on the hook if things go wrong at 3am. Many organisations are evaluating, or incorporating a new set of AI tools to either improve developer productivity or bring enhancements to their business analytic workflows. Under ideal circumstances AI tools may shave off some time in software development or provide additional inferences from our datasets. This benefit will largely be at the cost of technical staff having a reduced understanding  and an increase in overall complexity of the system. If issues were to arise with incorrect results being produced from an machine learning analysis, or vulnerabilities in released software, then the responsible team has a diminished ability to respond to the issue resulting from a greater surface area of potential problems and reduced amount of time spent developing the solution.</p>
+<p>IT systems contrast motorbikes in how we value using them. For motorbikes increasing our own understanding of riding and bike maintenance is highly valued. Governments are even incentivising the training of riders.[1] Conversely, when issues arise with IT systems the tendency is to add more tools, systems or process to improve performance or fix problems. Rarely is the outcome ever to have a presentation on the issue or provide additional training to team members. People are busy.</p>
+<p>As businesses attempt to cut costs by reducing staff using AI tools they will inadvertently be adding new set of risks that must be accepted, mitigated or transferred. As this risks are realised it will allow those that have spent the time to understand these issues to be handsomely remunerated. Highly skilled people that can actually find solutions will be in high demand; those unwilling to invest in themselves or looking for a quick buck will need to get out of the way. Businesses will need to invest in their staff as it will help the business run more effectively as complexity increases and allow them to be more resilient. Leaders will be required to make effective decisions by looking inward rather than outward for solutions.</p>
+<p>Good software developers will try and always reduce the amount of code they need to look after up to the point where it becomes too abstract for other code maintainers to understand. It is my view that the same thought process needs to regularly occur with the stuff that runs in our IT systems. There will always be new shiny things, but we have to try to scale up the people we already have.</p>
+<p>Thank you for reading.</p>
+<p>References:</p>
+<ul>
+<li>[1]: <a class="link" href="https://streetsmarts.initiatives.qld.gov.au/ride-to-zero/"  target="_blank" rel="noopener"
+    >Queensland Government Rider Training Initiatives</a></li>
+</ul>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/essay/">Essay</a>
+        
+    </section>
+
+
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 Tim Wicks
+    </section>
+    
+    <section class="powerby">
+        
+            Tim Wicks - Learning <br/>
+        
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
