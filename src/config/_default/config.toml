@@ -1,0 +1,8 @@
+baseURL = "https://trwicks.github.io/"
+languageCode = "en"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"

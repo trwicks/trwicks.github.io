@@ -1,0 +1,13 @@
+
+title = "Tim Wicks - Blog"
+
+[author]
+name = "Tim Wicks"
+image = "img/m2.png"
+headline = "Always learning"
+bio = "Cloud Engineer"
+links = [
+  { linkedin = "https://www.linkedin.com/in/timothy-wicks-9001/" },
+  { github = "https://github.com/trwicks" },
+  { twitter = "https://twitter.com/trwicks" }
+]
