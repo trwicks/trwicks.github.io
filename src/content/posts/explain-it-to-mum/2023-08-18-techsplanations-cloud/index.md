@@ -23,7 +23,7 @@ Cynics that work in the industry describe the cloud has "someone else's computer
 
 If you look at the word "cloud" from a perspective of someone wanting to understand it as business concept and not a technical concept, the term becomes much easier comprehend: 
 
-> At its most simplest: the cloud provides IT infrastructure to customers for much lower cost than trying to set the infrastructure up themselves. 
+> the cloud provides IT infrastructure to customers for much lower cost than trying to set the infrastructure up themselves. 
 
 To clarify: the cloud is a marketing term that describes a business model. The business model is providing IT infrastructure as different service offerings to paying customers so they can host services for their customers, and this allows the business using these services to benefit from the scale of the cloud provider and not having to manage the underlying physical IT infrastructure. A skim through the benefits of the cloud from a cloud provider (Microsoft) seems to add more weight to the business interpretation too.[3]
 
