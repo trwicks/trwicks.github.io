@@ -1,6 +1,9 @@
 baseURL = "https://trwicks.github.io/"
 languageCode = "en"
 
+
+googleAnalytics = "G-EL3Q5XRTYP"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
