@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Analysis on Tim Wicks - Blog</title>
-    <link>http://localhost:1313/tags/data-analysis/</link>
+    <link>https://trwicks.github.io/tags/data-analysis/</link>
     <description>Recent content in Data Analysis on Tim Wicks - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Tim Wicks</copyright>
-    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/tags/data-analysis/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic Data Manipulation using Pandas</title>
-      <link>http://localhost:1313/posts/notes/quick-pandas-notes/</link>
+      <link>https://trwicks.github.io/posts/notes/quick-pandas-notes/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/notes/quick-pandas-notes/</guid>
-      <description></description>
+      <guid>https://trwicks.github.io/posts/notes/quick-pandas-notes/</guid>
+      <description>I always find myself having to re-google things. My head is not an encyclopedia or I just cannot seem to commit things I do to memory in my day job. So I am going to try and fix that by making some notes that try to contextualise problems and how I solved them with different tools.</description>
       
     </item>
     

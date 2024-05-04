@@ -21,3 +21,8 @@ docker run --rm -it \
 ./scripts/util.sh build
 
 ```
+
+# References
+
+https://n9o.xyz/posts/202401-evolution-ai/
+https://blowfish.page/docs/series/

@@ -4,7 +4,7 @@ title = "Tim Wicks - Blog"
 [author]
 name = "Tim Wicks"
 image = "img/m2.png"
-headline = "Always learning"
+headline = "learning"
 bio = "Cloud Engineer"
 links = [
    { email = "mailto:timothy.wicks@outlook.com" },
