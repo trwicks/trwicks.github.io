@@ -1,4 +1,4 @@
-defaultFeaturedImage = "/img/background.svg"
+defaultFeaturedImage = "/img/straddie.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -44,14 +44,14 @@ mainSections = ["posts"]
 
 [homepage]
   layout = "background" # valid options: page, profile, custom
-  homepageImage = "/img/photos/ttmountain.jpg"
+  homepageImage = "/img/beach.jpg"
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = '/posts'
   cardView = false
   cardViewScreenWidth = true
-  layoutBackgroundBlur = true
+  layoutBackgroundBlur = false
 
 [footer]
   showCopyright = true
