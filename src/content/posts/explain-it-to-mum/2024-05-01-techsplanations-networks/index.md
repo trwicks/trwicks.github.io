@@ -1,6 +1,7 @@
 ---
 title: "What are Networks?"
 description: Describing IT networking as quickly as I can.
+summary: Explaining what networks are to improve shared understanding of IT concepts.
 slug: techsplanations-networks
 date: 2024-05-01
 image: images/ttmountain.jpg

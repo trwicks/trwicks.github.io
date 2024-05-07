@@ -1,6 +1,7 @@
 ---
 title: Thinking Machines
 description: "A thought experiment on the value of our thinking at the intersection between people and the machines we make."
+summary: My current opinion on the intersection of AI and operational IT environments.
 slug: thinking--machines
 date: 2023-09-23
 image: girraween_18_03_2023.jpeg
@@ -24,7 +25,7 @@ MotoGP bikes are at the edge of technological boundary involving motorbikes. The
 
 As IT professionals we bear a great deal of responsibility for the IT systems we look after and develop. Our job means that we are on the hook if things go wrong at 3am. Many organisations are evaluating, or incorporating a new set of AI tools to either improve developer productivity or bring enhancements to their business analytic workflows. Under ideal circumstances AI tools may shave off some time in software development or provide additional inferences from our datasets. This benefit will largely be at the cost of technical staff having a reduced understanding  and an increase in overall complexity of the system. If issues were to arise with incorrect results being produced from an machine learning analysis, or vulnerabilities in released software, then the responsible team has a diminished ability to respond to the issue resulting from a greater surface area of potential problems and reduced amount of time spent developing the solution.
 
-IT systems contrast motorbikes in how we value using them. For motorbikes increasing our own understanding of riding and bike maintenance is highly valued. Governments are even incentivising the training of riders.[1] Conversely, when issues arise with IT systems the tendency is to add more tools, systems or process to improve performance or fix problems. Rarely is the outcome ever to have a presentation on the issue or provide additional training to team members. People are busy.
+IT systems contrast motorbikes in how we value using them. For motorbikes increasing our own understanding of riding and bike maintenance is highly valued. Governments are even incentivising the training of riders.[1] Conversely, when issues arise with IT systems the tendency is to add more tools, systems or process to improve performance or fix problems. Rarely, in my observations, is the outcome ever to have a presentation on the issue or provide additional training to team members. People are busy.
 
 As businesses attempt to cut costs by reducing staff using AI tools they will inadvertently be adding new set of risks that must be accepted, mitigated or transferred. As this risks are realised it will allow those that have spent the time to understand these issues to be handsomely remunerated. Highly skilled people that can actually find solutions will be in high demand; those unwilling to invest in themselves or looking for a quick buck will need to get out of the way. Businesses will need to invest in their staff as it will help the business run more effectively as complexity increases and allow them to be more resilient. Leaders will be required to make effective decisions by looking inward rather than outward for solutions. 
 

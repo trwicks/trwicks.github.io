@@ -1,6 +1,7 @@
 ---
 title: "Self-hosting a Github Runner"
 description: "Creating a Gitlab Runner on a Virtual Machine in Proxmox."
+summary: Setting up a VM on Proxmox and configuring a Github Actions runner for use in a homelab environment. 
 slug: homelab-project-1
 date: 2023-09-11
 image: images/server.png

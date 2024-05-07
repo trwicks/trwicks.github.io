@@ -14,7 +14,7 @@
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://trwicks.github.io/posts/homelab-project-1/</guid>
-      <description>Introduction # This is a guide to document the creation of a Self-hosted Github runner in a homelab environment. The reason to set up a runner in your homelab is that the runner will enable Github workflows to run scripts and other automation software from the runner. This method demonstrates how to use Proxmox to create a VM and install and configure a Gitlab runner and is for testing purposes only.</description>
+      <description>Setting up a VM on Proxmox and configuring a Github Actions runner for use in a homelab environment.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/homelab-project-1/feature.png" />
     </item>
     

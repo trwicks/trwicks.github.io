@@ -40,6 +40,7 @@ mainSections = ["posts"]
   cardView = true
   groupByYear = false
   cardViewScreenWidth = false
+  showSummary = true
 
 [homepage]
   layout = "background" # valid options: page, profile, custom
@@ -48,8 +49,8 @@ mainSections = ["posts"]
   showRecentItems = 3
   showMoreLink = true
   showMoreLinkDest = '/posts'
-  cardView = true
-  cardViewScreenWidth = false
+  cardView = false
+  cardViewScreenWidth = true
   layoutBackgroundBlur = true
 
 [footer]

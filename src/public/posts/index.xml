@@ -14,7 +14,7 @@
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
       <guid>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-networks/</guid>
-      <description>In a previous post I attempted to describe &amp;ldquo;Cloud&amp;rdquo; as it appears in IT, where I thought about the plethora of marketing buzzwords that exist in conversations these days. This post should be different. Networks are a fundamental part of IT, be they virtual or physical. To cut to the chase I am going to give my very short version of what I think networks mean, then elaborate on some parts of this definition.</description>
+      <description>Explaining what networks are to improve shared understanding of IT concepts.</description>
       
     </item>
     
@@ -24,8 +24,7 @@
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://trwicks.github.io/posts/thinking--machines/</guid>
-      <description>“Thou shalt not make a machine in the likeness of a human mind.”
-Frank Herbert, Dune Conceptual abstraction allows our minds to ride over the perils of complexity. It is nice to have shortcuts and assistive or generative AI (AI) is emerging toolset that aims to complement our thinking. This technology is being used by programmers, designers and content makers to generate code, graphics and written content. These tools can save an alluring amount of time in the short term but may lead to costly mistakes if not used carefully.</description>
+      <description>My current opinion on the intersection of AI and operational IT environments.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/thinking--machines/feature.jpeg" />
     </item>
     
@@ -35,19 +34,8 @@ Frank Herbert, Dune Conceptual abstraction allows our minds to ride over the per
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
       <guid>https://trwicks.github.io/posts/homelab-project-1/</guid>
-      <description>Introduction # This is a guide to document the creation of a Self-hosted Github runner in a homelab environment. The reason to set up a runner in your homelab is that the runner will enable Github workflows to run scripts and other automation software from the runner. This method demonstrates how to use Proxmox to create a VM and install and configure a Gitlab runner and is for testing purposes only.</description>
+      <description>Setting up a VM on Proxmox and configuring a Github Actions runner for use in a homelab environment.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/homelab-project-1/feature.png" />
-    </item>
-    
-    <item>
-      <title>Training Thoughts #1</title>
-      <link>https://trwicks.github.io/posts/training-1/</link>
-      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://trwicks.github.io/posts/training-1/</guid>
-      <description>Do nothing which is of no use.
-Miyamoto Musashi, The Book of Five Rings (The Book of Earth) Not too long ago I suffered a few injuries, including a torn calf, pain in my lower back and left knee - and weakness in balance and flexibility that prevented me from training martial arts and weightlifting as usual. This period caused me to evaluate how and why I train, which led to three notable areas that I want to change with my training into the future.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/training-1/feature.jpg" />
     </item>
     
     <item>
@@ -56,7 +44,7 @@ Miyamoto Musashi, The Book of Five Rings (The Book of Earth) Not too long ago I 
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/</guid>
-      <description>Describing what I do for work in a casual conversation varies quite a lot these days. My response will depend on the background understanding of the audience. If I am honest, I say I work in &amp;ldquo;IT&amp;rdquo; and move on to more interesting conversation. But, I find what I do really interesting and it is about time I put some thought into explaining the jargon in tech so I can use the vernacular with more people.</description>
+      <description>My attempt at trying to explain what the cloud actually is.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/feature.jpg" />
     </item>
     

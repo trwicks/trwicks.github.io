@@ -1,6 +1,7 @@
 ---
 title: "Training Thoughts #1"
 description: "Improving the way I think about training."
+summary: 
 slug: training-1
 date: 2023-08-23
 image: bwdog.jpg
@@ -9,7 +10,7 @@ categories:
 tags:
     - Short
     - Training
-draft: false
+draft: true
 ---
 
 > *Do nothing which is of no use.*

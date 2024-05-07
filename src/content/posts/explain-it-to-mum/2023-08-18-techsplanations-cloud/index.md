@@ -1,6 +1,7 @@
 ---
 title: "What is the Cloud?"
 description: You are most likely not the intended audience.
+summary: My attempt at trying to explain what the cloud actually is.
 slug: techsplanations-cloud
 date: 2023-08-18
 image: images/ttmountain.jpg
