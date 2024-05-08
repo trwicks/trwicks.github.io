@@ -44,7 +44,7 @@ mainSections = ["posts"]
 
 [homepage]
   layout = "background" # valid options: page, profile, custom
-  homepageImage = "/img/beach.jpg"
+  homepageImage = "/img/0002-flinders-beach.jpg"
   showRecent = true
   showRecentItems = 3
   showMoreLink = true
