@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tim Wicks - Blog</title>
-    <link>https://trwicks.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Tim Wicks - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Tim Wicks</copyright>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Techsplanations</title>
-      <link>https://trwicks.github.io/categories/techsplanations/</link>
+      <link>http://localhost:1313/categories/techsplanations/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/categories/techsplanations/</guid>
+      <guid>http://localhost:1313/categories/techsplanations/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Short Thoughts</title>
-      <link>https://trwicks.github.io/categories/short-thoughts/</link>
+      <link>http://localhost:1313/categories/short-thoughts/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/categories/short-thoughts/</guid>
+      <guid>http://localhost:1313/categories/short-thoughts/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Homelab</title>
-      <link>https://trwicks.github.io/categories/homelab/</link>
+      <link>http://localhost:1313/categories/homelab/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/categories/homelab/</guid>
+      <guid>http://localhost:1313/categories/homelab/</guid>
       <description></description>
       
     </item>

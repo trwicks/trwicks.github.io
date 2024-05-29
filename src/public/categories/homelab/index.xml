@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homelab on Tim Wicks - Blog</title>
-    <link>https://trwicks.github.io/categories/homelab/</link>
+    <link>http://localhost:1313/categories/homelab/</link>
     <description>Recent content in Homelab on Tim Wicks - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Tim Wicks</copyright>
-    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Self-hosting a Github Runner</title>
-      <link>https://trwicks.github.io/posts/homelab-project-1/</link>
+      <link>http://localhost:1313/posts/homelab-project-1/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/homelab-project-1/</guid>
+      <guid>http://localhost:1313/posts/homelab-project-1/</guid>
       <description>Setting up a VM on Proxmox and configuring a Github Actions runner for use in a homelab environment.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/homelab-project-1/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/homelab-project-1/feature.png" />
     </item>
     
   </channel>

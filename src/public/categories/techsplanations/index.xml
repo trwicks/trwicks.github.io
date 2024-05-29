@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Techsplanations on Tim Wicks - Blog</title>
-    <link>https://trwicks.github.io/categories/techsplanations/</link>
+    <link>http://localhost:1313/categories/techsplanations/</link>
     <description>Recent content in Techsplanations on Tim Wicks - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Tim Wicks</copyright>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/categories/techsplanations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/techsplanations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What are Networks?</title>
-      <link>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-networks/</link>
+      <link>http://localhost:1313/posts/explain-it-to-mum/techsplanations-networks/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-networks/</guid>
+      <guid>http://localhost:1313/posts/explain-it-to-mum/techsplanations-networks/</guid>
       <description>Explaining what networks are to improve shared understanding of IT concepts.</description>
       
     </item>
     
     <item>
       <title>What is the Cloud?</title>
-      <link>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/</link>
+      <link>http://localhost:1313/posts/explain-it-to-mum/techsplanations-cloud/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/</guid>
+      <guid>http://localhost:1313/posts/explain-it-to-mum/techsplanations-cloud/</guid>
       <description>My attempt at trying to explain what the cloud actually is.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/explain-it-to-mum/techsplanations-cloud/feature.jpg" />
     </item>
     
   </channel>

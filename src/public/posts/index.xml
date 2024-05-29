@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tim Wicks - Blog</title>
-    <link>https://trwicks.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Tim Wicks - Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Tim Wicks</copyright>
-    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://trwicks.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What are Networks?</title>
-      <link>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-networks/</link>
+      <link>http://localhost:1313/posts/explain-it-to-mum/techsplanations-networks/</link>
       <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-networks/</guid>
+      <guid>http://localhost:1313/posts/explain-it-to-mum/techsplanations-networks/</guid>
       <description>Explaining what networks are to improve shared understanding of IT concepts.</description>
       
     </item>
     
     <item>
       <title>Thinking Machines</title>
-      <link>https://trwicks.github.io/posts/thinking--machines/</link>
+      <link>http://localhost:1313/posts/thinking-machines/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/thinking--machines/</guid>
+      <guid>http://localhost:1313/posts/thinking-machines/</guid>
       <description>My current opinion on the intersection of AI and operational IT environments.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/thinking--machines/feature.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/thinking-machines/feature.jpeg" />
     </item>
     
     <item>
       <title>Self-hosting a Github Runner</title>
-      <link>https://trwicks.github.io/posts/homelab-project-1/</link>
+      <link>http://localhost:1313/posts/homelab-project-1/</link>
       <pubDate>Mon, 11 Sep 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/homelab-project-1/</guid>
+      <guid>http://localhost:1313/posts/homelab-project-1/</guid>
       <description>Setting up a VM on Proxmox and configuring a Github Actions runner for use in a homelab environment.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/homelab-project-1/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/homelab-project-1/feature.png" />
     </item>
     
     <item>
       <title>What is the Cloud?</title>
-      <link>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/</link>
+      <link>http://localhost:1313/posts/explain-it-to-mum/techsplanations-cloud/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/</guid>
+      <guid>http://localhost:1313/posts/explain-it-to-mum/techsplanations-cloud/</guid>
       <description>My attempt at trying to explain what the cloud actually is.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://trwicks.github.io/posts/explain-it-to-mum/techsplanations-cloud/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/explain-it-to-mum/techsplanations-cloud/feature.jpg" />
     </item>
     
   </channel>
